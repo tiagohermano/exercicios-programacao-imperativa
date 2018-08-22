@@ -1,11 +1,11 @@
 #include <stdio.h>
 void main()
 {
-  int num;
-  printf("Informe um número: ");
+  int num=0;
+  printf("Informe um numero: ");
   scanf("%d", &num);
-  printf("DIVISORES DE %d: ", num);
-  for(int index = 0;index < num; index+=1) {
+  printf("Divisores de %d: \n", num);
+  for(int index = 1;index < num; index++) {
     if(num % index == 0) {
       printf("%d \n", index);
     };
