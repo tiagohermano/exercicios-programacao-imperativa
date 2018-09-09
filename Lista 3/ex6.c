@@ -20,7 +20,6 @@ void main() {
 
 float calcularMediaNota(float nota1, float nota2, float nota3, char tipoMedia) {
   if(tipoMedia != 'a' && tipoMedia != 'p') {
-    printf("caiu na condição invalida");
     return 0; // caractere inválido
   };
   if(tipoMedia=='a') {
