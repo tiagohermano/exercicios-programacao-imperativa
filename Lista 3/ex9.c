@@ -18,7 +18,7 @@ void main() {
 char * removerCaractere(char stringRemocao[], char caractereRemocao) {
   for(int i=0; i<strlen(stringRemocao); i++) {
     if(stringRemocao[i] == caractereRemocao) {
-      stringRemocao[i] = '*';
+      stringRemocao[i] = ' ';
     };
   };
   return stringRemocao;
