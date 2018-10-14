@@ -1,0 +1,4 @@
+a) acréscimo em uma unidade no endereço de memório do ponteiro p;
+b) acréscimo em uma unidade no valor do endereço de memório do ponteiro p;
+c) acesso do valor do endereço de memória de p acrescido em 1 unidade;
+d) 
